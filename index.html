@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academnashr-project</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- google-fonts  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,31 +21,30 @@
 
     <div class="site-header-link">
       <nav>
-        <ul class="sitenav-link">
-          <li><a href="index.html">Bosh sahifa</a></li>
-          <li><a href="index.html">Kitoblar</a></li>
-          <li><a href="index.html">Aksiyalar</a></li>
-          <li><a href="index.html">Kontaktlar</a></li>
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
       <a class="main-link" href="#">Ro'yxatdan o'tish</a>
     </div>
-
   </header>
     <!-- site-main  -->
 
-    <section class="hero">
-      <div class="hero-content">
+    <section class="promo">
+      <div class="promo-content">
         <hr class="orange-line">
-        <h2 class="hero-heading">Paytonda dasturlash <br> asoslari</h2>
-          <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma.
+        <h2 class="promo-heading">Paytonda dasturlash <br> asoslari</h2>
+          <p class="promo-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma.
           <br>Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib,
           <br>ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.
         </p>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
 
-        <img class="hero-img" src="img/python-book.jpg" alt="Paytonda dasturlash asoslari kitobi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
+        <img class="promo-img" src="img/python-book.jpg" alt="Paytonda dasturlash asoslari kitobi" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
     </section>
 
   <!-- site-features -->
@@ -56,7 +56,7 @@
     </h2>
 
     <ul class="features-list">
-      <li>
+      <li class="feature">
         <div class="feature-icon-wrapper">
           <img src="img/cursor-click.svg" alt="cursor-link">
         </div>
@@ -65,7 +65,7 @@
           Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.
         </p>
       </li>
-      <li>
+      <li class="feature">
         <div class="feature-icon-wrapper">
           <img src="img/sparkles.svg" alt="sparkles">
         </div>
@@ -74,7 +74,7 @@
           Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.
         </p>
       </li>
-      <li>
+      <li class="feature">
         <div class="feature-icon-wrapper">
           <img src="img/lightning-bolt.svg" alt="lightning">
         </div>
@@ -86,17 +86,18 @@
     </ul>
   </section>
 
-
-    <section class="promo">
-      <div class="hero-content">
-        <h2 class="hero-heading">Bolalar kitoblari uchun <br> ajoyib aksiya!</h2>
-        <p class="hero-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-        <p class="hero-text">Aksiyadagi eng katta to’plamda <strong class="hero-text-paragraf">50 ta kitob</strong>ni <strong class="hero-text-paragraf">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-        <a class="main-link" href="#">Buyurtma berish</a>
+  <section class="promo">
+    <div class="promo-content">
+      <h2 class="promo-heading">Bolalar kitoblari uchun <br> ajoyib aksiya!</h2>
+      <div class="promo-info-wrapper">
+          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-text-paragraf">50 ta kitob</strong>ni <strong class="promo-text-paragraf">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
       </div>
+      <a class="main-link" href="#">Buyurtma berish</a>
+    </div>
 
-      <img class="promo-img" src="img/sale-img.jpg" alt="Taxtlangan kitoblar" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
-    </section>
+    <img class="promo-img" src="img/sale-img.jpg" alt="Taxtlangan kitoblar" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
+  </section>
 
   <!-- site-footer -->
 
